@@ -512,7 +512,7 @@ export default function InvoiceDetail({
         <div
           role="dialog"
           id="invoice-pdf-modal-overlay"
-          className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-[100] p-4 animate-in fade-in duration-200"
+          className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-[100] animate-in fade-in duration-200"
           onClick={() => setIsPdfModalOpen(false)}
         >
           <div
