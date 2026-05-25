@@ -23,7 +23,7 @@ export default function App() {
   const [clients, setClients] = useState<Client[]>(INITIAL_CLIENTS);
 
   // Client-side state routing
-  const [currentRoute, setCurrentRoute] = useState<string>("login");
+  const [currentRoute, setCurrentRoute] = useState<string>("landing");
   const [routeParams, setRouteParams] = useState<Record<string, any>>({});
   const [activeCurrency, setActiveCurrency] = useState<string>("original");
 
