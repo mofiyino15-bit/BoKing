@@ -517,7 +517,7 @@ export default function InvoiceDetail({
         >
           <div
             id="invoice-pdf-modal-card"
-            className="bg-grey-50/0 rounded-2xl w-full max-w-4xl h-[90vh] flex flex-col overflow-hidden border border-grey-100 shadow-2xl scale-in"
+            className="bg-white rounded-2xl w-full max-w-4xl h-[90vh] flex flex-col overflow-hidden border border-grey-100 shadow-2xl scale-in"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Modal Header */}
