@@ -3,7 +3,7 @@ import { Invoice, Client, formatCurrency, formatCurrencyConverted, ActivityLog }
 import { useState } from "react";
 import BokLogo from "./BokLogo";
 
-interface InvoiceDetailProps {
+interface InvoiceDetailProps {  
   invoiceId: string;
   invoices: Invoice[];
   clients: Client[];
@@ -512,7 +512,7 @@ export default function InvoiceDetail({
         <div
           role="dialog"
           id="invoice-pdf-modal-overlay"
-          className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-[100] animate-in fade-in duration-200"
+          className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-[999] animate-in fade-in duration-200"
           onClick={() => setIsPdfModalOpen(false)}
         >
           <div
